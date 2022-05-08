@@ -18,3 +18,7 @@ test('creates Engineer object', () => {
 test('gets engineer github username', () => {
     expect(engineer.getGithub()).toEqual(expect.stringContaining('edhub'));
 });
+
+test('override employee role', () => {
+    expect(engineer.getRole()).toBe('Engineer');
+});

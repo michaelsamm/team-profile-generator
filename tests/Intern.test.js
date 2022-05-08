@@ -18,3 +18,7 @@ test('creates intern object', () => {
 test('get intern school', () => {
     expect(intern.getSchool()).toEqual(expect.stringContaining('Purdue University'));
 });
+
+test('override employee role', () => {
+    expect(intern.getRole()).toBe('Intern');
+});

@@ -28,3 +28,7 @@ test('gets employee id', () => {
 test('gets employee email', () => {
     expect(employee.getEmail()).toEqual(expect.stringContaining('fred@employer.com'));
 });
+
+test('gets employee role', () => {
+    expect(employee.getRole()).toBe('Employee');
+});
