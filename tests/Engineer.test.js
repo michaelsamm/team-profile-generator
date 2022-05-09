@@ -1,9 +1,3 @@
-/* Employee plus:
-github GitHub username
-getGithub()
-getRole() Overridden to return Engineer
-*/
-
 const Engineer = require('../lib/Engineer');
 
 const engineer = new Engineer('Ed', '22222', 'ed@employer.com', 'edhub');

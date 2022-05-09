@@ -1,8 +1,3 @@
-/* Employee plus:
-officeNumber
-getRole() Overridden to return Manager
-*/
-
 const Manager = require('../lib/Manager');
 
 const manager = new Manager('Marty', '11111', 'marty@employer.com', '123');

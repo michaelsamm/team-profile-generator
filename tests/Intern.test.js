@@ -1,9 +1,3 @@
-/* Employee plus:
-school
-getSchool()
-getRole() Overridden to return Intern
-*/
-
 const Intern = require('../lib/Intern');
 
 const intern = new Intern('Iris', '33333', 'iris@employer.com', 'Purdue University');

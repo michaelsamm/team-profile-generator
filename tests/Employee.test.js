@@ -1,14 +1,5 @@
-/* Properties and methods
-name
-id
-email
-getName()
-getId()
-getEmail()
-getRole() returns Employee
-*/
-
 const Employee = require('../lib/Employee');
+
 const employee = new Employee('Fred', '21453', 'fred@employer.com');
 
 test('creates an employee object', () => {
